@@ -1,0 +1,17 @@
+{
+  "$schema": "https://raw.githubusercontent.com/ScratchEverywhere/seec/refs/heads/main/schema.json",
+  "core": false,
+  "id": "utilities",
+  "name": "Utilities",
+  "description": "A bunch of interesting blocks.",
+  "permissions": [],
+  "platforms": [
+    "wiiu",
+    "pc",
+    "3ds",
+    "wii",
+    "switch",
+    "vita",
+    "gamecube"
+  ]
+}
