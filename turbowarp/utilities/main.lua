@@ -62,8 +62,22 @@ function blocks.fetchFrom()
 end
 
 -- type: reporter
-function blocks.parseJSON()
-	return "" -- JSON API has not been implemented yet
+function blocks.parseJSON(args)
+	local keys = {}
+	for key in tostring(args["PATH"]):gmatch("([^/]+)") do
+		table.insert(keys, key)
+	end
+
+	local value = json.decode(tostring(args["JSON_STRING"]))
+	for _, key in ipairs(keys) do
+		if type(value) == "table" and value[key] ~= nil then
+			value = value[key]
+		else
+			return nil
+		end
+	end
+
+	return value
 end
 
 -- type: reporter
