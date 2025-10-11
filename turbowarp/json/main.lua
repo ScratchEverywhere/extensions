@@ -17,14 +17,11 @@ function blocks.json_get_all(args)
 	for k, v in pairs(json.decode(tostring(args["json"]))) do
 		if args["Stype"] == "keys" then
 			table.insert(out, k)
-			goto continue
-		end
-		if args["Stype"] == "values" then
+		elseif args["Stype"] == "values" then
 			table.insert(out, v)
-			goto continue
+		else
+			table.insert(out, { k, v })
 		end
-		table.insert(out, { k, v })
-		::continue::
 	end
 	return json.encode(out)
 end
