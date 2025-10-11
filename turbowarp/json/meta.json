@@ -1,0 +1,17 @@
+{
+  "$schema": "https://raw.githubusercontent.com/ScratchEverywhere/seec/refs/heads/main/schema.json",
+  "core": false,
+  "id": "skyhigh173JSON",
+  "name": "JSON",
+  "description": "Handle JSON strings and arrarys.",
+  "permissions": [],
+  "platforms": [
+    "wiiu",
+    "pc",
+    "3ds",
+    "wii",
+    "switch",
+    "vita",
+    "gamecube"
+  ]
+}
