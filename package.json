@@ -1,6 +1,7 @@
 {
   "dependencies": {},
   "devDependencies": {
+    "@turbowarp/types": "^0.0.13",
     "@types/bun": "^1.2.23"
   }
 }

@@ -1,0 +1,17 @@
+{
+  "$schema": "https://raw.githubusercontent.com/ScratchEverywhere/seec/refs/heads/main/schema.json",
+  "core": false,
+  "id": "localfiles",
+  "name": "Local Files",
+  "description": "A simple extension to store files in a sandboxed directory.",
+  "permissions": ["localfs"],
+  "platforms": [
+    "wiiu",
+    "pc",
+    "3ds",
+    "wii",
+    "switch",
+    "vita",
+    "gamecube"
+  ]
+}

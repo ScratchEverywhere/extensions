@@ -30,4 +30,10 @@ for (const folder of potentialFolders) {
   await $`seec -o ${join(import.meta.dir, "bin", meta.id + ".see")}`.cwd(
     folder,
   );
+
+  if (!(await Bun.file(join(folder, "dummy.ts")).exists())) continue;
+  await Bun.write(
+    join(import.meta.dir, "bin", meta.id + ".js"),
+    (await Bun.build({ entrypoints: [join(folder, "dummy.ts")] })).outputs[0],
+  );
 }
