@@ -1,0 +1,8 @@
+{
+  "core": false,
+  "id": "V1",
+  "name": "JSLUA",
+  "description": "This is an very beta version of a port of javascript for Scratch Everywhere!",
+  "permissions": [],
+  "platforms": ["wiiu", "wii", "pc", "switch", "gamecube", "3ds", "vita"]
+}
