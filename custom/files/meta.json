@@ -4,14 +4,5 @@
   "id": "localfiles",
   "name": "Local Files",
   "description": "A simple extension to store files in a sandboxed directory.",
-  "permissions": ["localfs"],
-  "platforms": [
-    "wiiu",
-    "pc",
-    "3ds",
-    "wii",
-    "switch",
-    "vita",
-    "gamecube"
-  ]
+  "permissions": ["localfs"]
 }

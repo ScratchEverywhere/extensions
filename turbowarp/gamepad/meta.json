@@ -4,14 +4,5 @@
   "id": "Gamepad",
   "name": "Gamepad",
   "description": "Directly access gamepads instead of just mapping buttons to keys.",
-  "permissions": ["input"],
-  "platforms": [
-    "wiiu",
-    "pc",
-    "3ds",
-    "wii",
-    "switch",
-    "vita",
-    "gamecube"
-  ]
+  "permissions": ["input"]
 }

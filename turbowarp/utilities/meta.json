@@ -4,14 +4,5 @@
   "id": "utilities",
   "name": "Utilities",
   "description": "A bunch of interesting blocks.",
-  "permissions": [],
-  "platforms": [
-    "wiiu",
-    "pc",
-    "3ds",
-    "wii",
-    "switch",
-    "vita",
-    "gamecube"
-  ]
+  "permissions": []
 }
